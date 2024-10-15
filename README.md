@@ -57,8 +57,10 @@ PUT /notes/:id: Update an existing note by ID.
 DELETE /notes/:id: Delete a note by ID.
 
 ## Axios Configuration
-Axios is configured with an API base URL to handle all HTTP requests efficiently. This is set in the app to ensure proper communication with the backend API.
 
+To manage HTTP requests in the Scribblease app, Axios is used to communicate with the backend API. Below is the Axios client configuration:
+
+```javascript
 import axios from 'axios';
 
 const apiClient = axios.create({
@@ -69,6 +71,7 @@ const apiClient = axios.create({
 });
 
 export default apiClient;
+```
 
 ## Contributing
 We welcome contributions to Scribblease! To contribute:
