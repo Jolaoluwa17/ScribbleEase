@@ -14,7 +14,6 @@ Scribblease is a cross-platform notepad application built with React Native, des
 
 - **Frontend:**
   - **React Native:** The core framework used for building the app, ensuring cross-platform compatibility (iOS and Android).
-  - **Tailwind CSS:** For clean and responsive styling across the app.
   
 - **Backend API Integration:**
   - **Axios:** Axios is used for handling all HTTP requests, providing seamless communication with the backend API to store, retrieve, and manage notes.
