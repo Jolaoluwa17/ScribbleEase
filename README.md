@@ -35,18 +35,26 @@ To run the Scribblease application locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/scribblease.git
+   ```
    
 2. Navigate into the project directory:
+   ```bash
    cd scribblease
-   
-3. Install the dependencies:
+   ```
+4. Install the dependencies:
+   ```bash
    npm install
+   ```
 
-4. Set up your environment: Create an .env file in the root of the project and add your backend API URL (if applicable):
+6. Set up your environment: Create an .env file in the root of the project and add your backend API URL (if applicable):
+   ```bash
    REACT_APP_API_URL=https://your-api-url.com
+   ```
 
-5. Start the app: For React Native CLI:
+8. Start the app: For React Native CLI:
+   ```bash
    npx expo start
+   ```
 
 ## API Endpoints
 Scribblease interacts with a RESTful backend that handles various note-related operations. Here are the key endpoints:
